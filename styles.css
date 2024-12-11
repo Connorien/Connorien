@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box; /* Ensures padding and border are included in the element's dimensions */
 }
-
+/*variables*/
 :root {
     --main-color: #000000; 
     --secondary-color: #0033cc;
@@ -15,7 +15,6 @@
 
 
 /* Container for all sections */
-
 
 section {
     text-align: center; /* Center-aligns the text */
@@ -192,7 +191,7 @@ tr:nth-child(even) {
 
 
 
-
+/*All of the contract or form section*/
 #contact {
     padding: 50px 20px; /* Adds space around the section */
     z-index: 999; /* Higher z-index value brings it to the front */
@@ -279,6 +278,7 @@ tr:nth-child(even) {
 }
 
 
+/*Footer styles*/
 footer {
     background-color: var(--secondary-color);
     color: white;
